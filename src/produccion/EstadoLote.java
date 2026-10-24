@@ -1,0 +1,5 @@
+package produccion;
+
+public enum EstadoLote {
+    RECEPCION, EN_TOSTADO, CONTROL_CALIDAD, EN_EMPAQUE, FINALIZADO, BLOQUEADO, RECHAZADO
+}
