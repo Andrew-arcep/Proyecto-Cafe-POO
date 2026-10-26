@@ -57,3 +57,4 @@ Lista de diferencias entre `Diagrama_Clases_Cafe.drawio` y el código, para actu
 - El empaque calcula kilos = peso actual redondeado hacia arriba; un lote bloqueado no consume nada hasta que haya material para ambos (bolsas y etiquetas).
 - Las excepciones `IllegalArgumentException` e `IllegalStateException` (no verificadas) se usan para datos inválidos y operaciones fuera de estado; `MenuApp` las captura y vuelve al menú.
 - Moneda mostrada como "CRC" (colones), solo informativa.
+- Presentación del diagrama: se reacomodó con más espacio, fondo blanco, y se quitaron las flechas de dependencia `Etapa → Colaborador` y `Etapa → Bodega` porque cruzaban todo el diagrama; esa relación se ve en los parámetros de `validarRequisitos` y `ejecutar`.
